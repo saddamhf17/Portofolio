@@ -7,6 +7,7 @@
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     </head>
     <link rel="stylesheet" href="frontend/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <body>
     <section class="h-100 w-100" style="
 				box-sizing: border-box;
@@ -55,7 +56,7 @@
 
           <!-- Right Column -->
           <div class="right-column d-flex justify-content-center justify-content-lg-start text-center pe-0">
-            <img class="h-auto w-full al-cen"
+            <img data-aos="fade-left" class="h-auto w-full al-cen"
               src="frontend/image/hero image.svg"
               alt="" />
           </div>
@@ -347,7 +348,11 @@
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
         </nav>
     </div>
-</footer> 
+    </footer> 
+    <script>
+        AOS.init();
+    </script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </body>
   </html>
