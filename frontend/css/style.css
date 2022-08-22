@@ -6,7 +6,13 @@
 .al-cen{
     margin: 5px auto 5px auto;
 }
-
+.card-style{
+  background-color: white;
+  border-radius: 10px;
+  border: solid 2px black;
+  box-shadow: 15px 15px 0px -2px white,
+  15px 15px black;
+}
 .grey{
   color: #aaa6a6;
 }
